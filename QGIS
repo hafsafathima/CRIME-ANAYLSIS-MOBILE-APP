@@ -1,0 +1,43 @@
+DATA  PREAPARATION 
+Law enforcement and criminal justice (www.esri.com) 
+CRIME MAPPING
+. Prepare Your Data
+You typically need:
+a. Crime incident data
+CSV, Excel, or shapefile(NEWS PAPERS)(
+Should contain:
+Latitude & Longitude (preferred)
+Crime type
+Date/time
+Description
+Reporting area or precinct
+b. Base layers
+City boundaries
+Roads
+Police zones
+Census tracts / blocks (optional)
+Importing data
+Layer → Add Layer → Add Delimited Text Layer → choose CSV → set geometry = lat/lonThis will plot crime points on the map.
+Hotspot maps show where crimes concentrate.
+Method 1: Heatmap (Kernel Density Estimation)
+Raster → Heatmap → Heatmap (Kernel Density Estimation)
+Choose:
+Radius (e.g., 500–1000 meters)
+Weight field (optional)
+Produces a smooth density surface.
+Use this if you want the number of crimes per area.
+Create polygons (districts or fishnets):Vector → Research Tools → Create grid
+Count points in grid:Vector → Analysis Tools → Count points in polygon
+This gives a raw crime intensity map.
+Crime Density by Population (Risk Mapping)
+To analyze crime relative to population:
+Import census data (population counts per tract or block).
+Join census data to spatial polygons.
+Calculate: crime rate = crime count / population × 1,000 or 100,000
+Style using graduated colors.
+You can automate:
+Data cleaning
+Heatmap generation
+Monthly crime reports
+Cluster analysis
+QGIS → Processing Model BuilderOr write scripts in PyQGIS.
