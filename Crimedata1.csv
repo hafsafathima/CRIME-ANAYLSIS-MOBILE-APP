@@ -1,0 +1,11 @@
+﻿Crime_ID,Crime_Type,Date,Time,Latitude,Longitude,Area_Name,Severity
+1,Theft,1/5/2026,21:30,18.1045,78.8486,Gajwel Road,Medium
+2,Assault,1/6/2026,22:15,18.102,78.8465,Old Bus Stand,High
+3,Burglary,1/7/2026,2:10,18.106,78.8501,Housing Board,High
+4,Theft,1/8/2026,19:00,18.1082,78.8523,Market Area,Medium
+5,Robbery,1/9/2026,23:40,18.1015,78.8452,Karimnagar Road,High
+6,Assault,1/9/2026,20:20,18.1075,78.851,College Road,Medium
+7,Theft,1/9/2026,18:30,18.105,78.849,New Bus Stand,Low
+8,Burglary,1/10/2026,3:00,18.1035,78.8475,Residential Area,High
+9,Robbery,1/13/2026,22:50,18.109,78.8532,Highway Area,High
+10,Theft,1/14/2026,17:45,18.104,78.848,Shopping Complex,Medium
